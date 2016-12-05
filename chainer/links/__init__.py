@@ -28,6 +28,7 @@ from chainer.links.loss import hierarchical_softmax
 from chainer.links.loss import negative_sampling
 from chainer.links.model import classifier
 from chainer.links.normalization import batch_normalization
+from chainer.links.theano import theano_function
 
 
 Maxout = maxout.Maxout
@@ -64,3 +65,5 @@ NegativeSampling = negative_sampling.NegativeSampling
 Classifier = classifier.Classifier
 
 BatchNormalization = batch_normalization.BatchNormalization
+
+TheanoFunction = theano_function.TheanoFunction
